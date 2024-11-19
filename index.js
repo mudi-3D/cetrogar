@@ -21,7 +21,7 @@ class MudiExperience{
             request = await fetch('https://mudiview.mudi.com.co:7443/product/getProductsUrl',{
                 method:'POST',
                 headers:{   "Content-type":"application/json",
-                            "tokenapi":"7goCnp73bN7c43s9MRj7"
+                            "tokenapi":"Qn4VtrBkLex66Tgo2Wd5"
                 },
                 body: JSON.stringify(myBody)
             })
